@@ -1,0 +1,37 @@
+name: Build and preview
+on:
+  pull_request:
+
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+  id-token: write
+  issues: write
+
+jobs:
+  yarn-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Yarn Check All
+        run: yarn run check-all
+      - name: Yarn Audit
+        run: yarn audit-ci --config audit-ci.json
+      - name: Build
+        env:
+          CI: false
+        run: yarn build
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yarn-artifacts
+          path: build
