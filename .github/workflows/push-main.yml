@@ -24,11 +24,11 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install --immutable --refresh-lockfile
       - name: Yarn Check All
         run: yarn run check-all
       - name: Yarn Audit
-        run: yarn audit-ci --config audit-ci.json
+        run: yarn npm audit --recursive --json --severity high
       - name: Build
         run: yarn build
       - name: upload artifact
