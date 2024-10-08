@@ -345,7 +345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/a11y@npm:0.2.91, @entur/a11y@npm:^0.2.90, @entur/a11y@npm:^0.2.91":
+"@entur/a11y@npm:0.2.91, @entur/a11y@npm:^0.2.91":
   version: 0.2.91
   resolution: "@entur/a11y@npm:0.2.91"
   dependencies:
@@ -378,7 +378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/button@npm:3.2.33, @entur/button@npm:^3.2.32, @entur/button@npm:^3.2.33":
+"@entur/button@npm:3.2.33, @entur/button@npm:^3.2.33":
   version: 3.2.33
   resolution: "@entur/button@npm:3.2.33"
   dependencies:
@@ -433,7 +433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/expand@npm:3.5.22, @entur/expand@npm:^3.5.21, @entur/expand@npm:^3.5.22":
+"@entur/expand@npm:3.5.22, @entur/expand@npm:^3.5.22":
   version: 3.5.22
   resolution: "@entur/expand@npm:3.5.22"
   dependencies:
@@ -481,7 +481,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/icons@npm:7.4.1, @entur/icons@npm:^7.4.0, @entur/icons@npm:^7.4.1":
+"@entur/icons@npm:7.4.1, @entur/icons@npm:^7.4.1":
   version: 7.4.1
   resolution: "@entur/icons@npm:7.4.1"
   dependencies:
@@ -492,7 +492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/layout@npm:2.3.17, @entur/layout@npm:^2.3.16, @entur/layout@npm:^2.3.17":
+"@entur/layout@npm:2.3.17, @entur/layout@npm:^2.3.17":
   version: 2.3.17
   resolution: "@entur/layout@npm:2.3.17"
   dependencies:
@@ -523,25 +523,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/menu@npm:4.2.40":
-  version: 4.2.40
-  resolution: "@entur/menu@npm:4.2.40"
+"@entur/menu@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@entur/menu@npm:5.0.1"
   dependencies:
-    "@entur/a11y": "npm:^0.2.90"
-    "@entur/button": "npm:^3.2.32"
-    "@entur/expand": "npm:^3.5.21"
-    "@entur/icons": "npm:^7.4.0"
-    "@entur/layout": "npm:^2.3.16"
-    "@entur/tokens": "npm:^3.17.0"
-    "@entur/typography": "npm:^1.8.45"
-    "@entur/utils": "npm:^0.11.2"
-    "@reach/menu-button": "npm:^0.16.1"
-    "@reach/polymorphic": "npm:0.18.0"
+    "@entur/a11y": "npm:^0.2.91"
+    "@entur/button": "npm:^3.2.33"
+    "@entur/expand": "npm:^3.5.22"
+    "@entur/icons": "npm:^7.4.1"
+    "@entur/layout": "npm:^2.3.17"
+    "@entur/tokens": "npm:^3.17.1"
+    "@entur/tooltip": "npm:^5.0.0"
+    "@entur/typography": "npm:^1.8.46"
+    "@entur/utils": "npm:^0.12.0"
+    "@floating-ui/react": "npm:^0.26.23"
     classnames: "npm:^2.3.1"
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 10c0/d4fa2f1bc05628cda286d823ecdbbf714bfe28f476365c3ba8322cc3011475ed257162cd31915933bc11ac49fe3a4544d6a409ac9bedf83c0b3a7e50f0175a34
+  checksum: 10c0/8f3497f07fae7da3c93babd52a2fb3617130b061647e63d5942348603f5c167161cc75c1bfa48e3f4e18a12519928a93565273bd2a8009b8c171301ac3a98047
   languageName: node
   linkType: hard
 
@@ -604,7 +604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/tokens@npm:3.17.1, @entur/tokens@npm:^3.17.0, @entur/tokens@npm:^3.17.1":
+"@entur/tokens@npm:3.17.1, @entur/tokens@npm:^3.17.1":
   version: 3.17.1
   resolution: "@entur/tokens@npm:3.17.1"
   dependencies:
@@ -614,25 +614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/tooltip@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@entur/tooltip@npm:4.0.1"
-  dependencies:
-    "@entur/button": "npm:^3.2.32"
-    "@entur/icons": "npm:^7.4.0"
-    "@entur/layout": "npm:^2.3.16"
-    "@entur/tokens": "npm:^3.17.0"
-    "@entur/utils": "npm:^0.11.2"
-    "@floating-ui/react-dom": "npm:^2.1.0"
-    classnames: "npm:^2.3.1"
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 10c0/dcc4bb7adf3b2fc026143879e3110b1adea29ca0e72c410f7bf86acc177d27d62cb73d887f156bfc1d6b7cff6e4d5d1bf786fcd911c53fee8279a2a667a375e9
-  languageName: node
-  linkType: hard
-
-"@entur/tooltip@npm:^5.0.0":
+"@entur/tooltip@npm:5.0.0, @entur/tooltip@npm:^5.0.0":
   version: 5.0.0
   resolution: "@entur/tooltip@npm:5.0.0"
   dependencies:
@@ -650,7 +632,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@entur/typography@npm:1.8.46, @entur/typography@npm:^1.8.45, @entur/typography@npm:^1.8.46":
+"@entur/typography@npm:1.8.46, @entur/typography@npm:^1.8.46":
   version: 1.8.46
   resolution: "@entur/typography@npm:1.8.46"
   dependencies:
@@ -675,18 +657,6 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 10c0/a17ac16facc4f3381cce4cb3996db44fe197610c997efe1a3419c18e9501dafd85626c6174895e1e640ad3e0bd1710a1f8cc7f7c6d4111a97fc3b7f9746c5cdc
-  languageName: node
-  linkType: hard
-
-"@entur/utils@npm:^0.11.2":
-  version: 0.11.2
-  resolution: "@entur/utils@npm:0.11.2"
-  dependencies:
-    tiny-warning: "npm:^1.0.3"
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 10c0/1ef93f58edfde5ac12076190f1caca05b466b55cbfdd475050ef63aaaca30d5781566ac0e30ff4c4bb030976ff809316689040008560332ecad25015434d2bcb
   languageName: node
   linkType: hard
 
@@ -946,7 +916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/react-dom@npm:^2.1.0":
+"@floating-ui/react-dom@npm:^2.1.0, @floating-ui/react-dom@npm:^2.1.2":
   version: 2.1.2
   resolution: "@floating-ui/react-dom@npm:2.1.2"
   dependencies:
@@ -955,6 +925,20 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
   checksum: 10c0/e855131c74e68cab505f7f44f92cd4e2efab1c125796db3116c54c0859323adae4bf697bf292ee83ac77b9335a41ad67852193d7aeace90aa2e1c4a640cafa60
+  languageName: node
+  linkType: hard
+
+"@floating-ui/react@npm:^0.26.23":
+  version: 0.26.24
+  resolution: "@floating-ui/react@npm:0.26.24"
+  dependencies:
+    "@floating-ui/react-dom": "npm:^2.1.2"
+    "@floating-ui/utils": "npm:^0.2.8"
+    tabbable: "npm:^6.0.0"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10c0/c5c3ac265802087673a69b0e08b3bea1ee02de9da4cdbc40bb1c9e06823be72628a82f1655b40d56a4383715b4ab3b6deddff4e69146f513970ee592e1dd8f92
   languageName: node
   linkType: hard
 
@@ -1386,19 +1370,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/auto-id@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@reach/auto-id@npm:0.16.0"
-  dependencies:
-    "@reach/utils": "npm:0.16.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-  checksum: 10c0/109032a164d46bf5a67bd64aed32f3c52e90d2dc184302b1d52c06323c7ce7fd41f1f77f09539517b72bcfc2946dc5fbc825ffbe02db14b0dd18562ce4e7b2d9
-  languageName: node
-  linkType: hard
-
 "@reach/descendants@npm:0.15.3":
   version: 0.15.3
   resolution: "@reach/descendants@npm:0.15.3"
@@ -1409,19 +1380,6 @@ __metadata:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
   checksum: 10c0/ddb355c9aba6643bc96bb4807ff8b196a03e88ca7fb957448198f1c016aac7ead98f5b2d3191c867e53fbaa5f9bf60d0abb746e5ac4ae82a8926ddbedd2f1ba3
-  languageName: node
-  linkType: hard
-
-"@reach/descendants@npm:0.16.1":
-  version: 0.16.1
-  resolution: "@reach/descendants@npm:0.16.1"
-  dependencies:
-    "@reach/utils": "npm:0.16.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-  checksum: 10c0/bbc4b2fcc7a45d571b5803b71ad519a91b6dc8aea943b3c0a4f519e3eb46f2a3c04c32176c947b33f8b5c40d916d0e1df3e0827353148c96e18b38957ee35733
   languageName: node
   linkType: hard
 
@@ -1442,72 +1400,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reach/dropdown@npm:0.16.2":
-  version: 0.16.2
-  resolution: "@reach/dropdown@npm:0.16.2"
-  dependencies:
-    "@reach/auto-id": "npm:0.16.0"
-    "@reach/descendants": "npm:0.16.1"
-    "@reach/popover": "npm:0.16.2"
-    "@reach/utils": "npm:0.16.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-  checksum: 10c0/3d5c14f204f52ba09425e53a34b0d630d7ef813f19c878febb341c543ba5e2450f4d0b3a0e32d586171939235f3898584488f6a897d8a6ceccad3e6f78f00673
-  languageName: node
-  linkType: hard
-
-"@reach/menu-button@npm:^0.16.1":
-  version: 0.16.2
-  resolution: "@reach/menu-button@npm:0.16.2"
-  dependencies:
-    "@reach/dropdown": "npm:0.16.2"
-    "@reach/popover": "npm:0.16.2"
-    "@reach/utils": "npm:0.16.0"
-    prop-types: "npm:^15.7.2"
-    tiny-warning: "npm:^1.0.3"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-    react-is: ^16.8.0 || 17.x
-  checksum: 10c0/87061e89791003043a816ac54535dd2e4a6e9b74f78a9817403fa80c989adf9c1675186b5feccf85ca7e976d14116d940498f0f5edd888b4c63651c2fbc0c252
-  languageName: node
-  linkType: hard
-
-"@reach/observe-rect@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@reach/observe-rect@npm:1.2.0"
-  checksum: 10c0/e2d2b399381e466705bcf7535ba1ed29866792d7aff386a2a41ca1f5ae9d8920f21c769d67b82b38045cd14e1c2aa29dbf6f37a77f323d16d01378eb02ad2925
-  languageName: node
-  linkType: hard
-
-"@reach/polymorphic@npm:0.18.0":
-  version: 0.18.0
-  resolution: "@reach/polymorphic@npm:0.18.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-  checksum: 10c0/dfde6dc901005f92e16f0e3601f0c659b70ee14d91e612cd68c9a918744fd94de30e8065d73663b72964225d3476f377c650daf2ac1e256de61df9ee386aabdc
-  languageName: node
-  linkType: hard
-
-"@reach/popover@npm:0.16.2":
-  version: 0.16.2
-  resolution: "@reach/popover@npm:0.16.2"
-  dependencies:
-    "@reach/portal": "npm:0.16.2"
-    "@reach/rect": "npm:0.16.0"
-    "@reach/utils": "npm:0.16.0"
-    tabbable: "npm:^4.0.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-  checksum: 10c0/9fb46d0a8e02fc74fa792e85e85695887b34f3524e158e7960c6d78432de326ebfef9229dd3804a5c25093d7bfc3f1dc77ef2d34bd4a380fd55ccb5d6cb3717e
-  languageName: node
-  linkType: hard
-
 "@reach/portal@npm:0.16.2":
   version: 0.16.2
   resolution: "@reach/portal@npm:0.16.2"
@@ -1519,22 +1411,6 @@ __metadata:
     react: ^16.8.0 || 17.x
     react-dom: ^16.8.0 || 17.x
   checksum: 10c0/814872d0e3ddfe75ab59a4adb1e52f3d0c44a307ff738f203526925ebeae266c99808669ed7f44b886f2f0a2f16fca2a6e765c505354e675a60aa9b14ead92df
-  languageName: node
-  linkType: hard
-
-"@reach/rect@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@reach/rect@npm:0.16.0"
-  dependencies:
-    "@reach/observe-rect": "npm:1.2.0"
-    "@reach/utils": "npm:0.16.0"
-    prop-types: "npm:^15.7.2"
-    tiny-warning: "npm:^1.0.3"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    react: ^16.8.0 || 17.x
-    react-dom: ^16.8.0 || 17.x
-  checksum: 10c0/a478e9e41ccd8e8283b049fae460355f614ef377fa08dd6b6379a5c0541f01dc04b31a316a1337487bf182c4b97d38059a01eb34eef88de5db9114a4a144149e
   languageName: node
   linkType: hard
 
@@ -5805,12 +5681,12 @@ __metadata:
     "@entur/icons": "npm:7.4.1"
     "@entur/layout": "npm:2.3.17"
     "@entur/loader": "npm:0.5.11"
-    "@entur/menu": "npm:4.2.40"
+    "@entur/menu": "npm:5.0.1"
     "@entur/modal": "npm:1.7.54"
     "@entur/tab": "npm:0.4.74"
     "@entur/table": "npm:4.8.20"
     "@entur/tokens": "npm:3.17.1"
-    "@entur/tooltip": "npm:4.0.1"
+    "@entur/tooltip": "npm:5.0.0"
     "@entur/typography": "npm:1.8.46"
     "@entur/utils": "npm:0.12.0"
     "@eslint/js": "npm:9.12.0"
@@ -10086,10 +9962,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabbable@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "tabbable@npm:4.0.0"
-  checksum: 10c0/8c95a8f7c6301e14f13688dd943d21457d1307220ce79850ccd140db2997be03fa8e49139faad0e3f5d25cafeef95adfae4ac5264d629611d18782e2db7eb59d
+"tabbable@npm:^6.0.0":
+  version: 6.2.0
+  resolution: "tabbable@npm:6.2.0"
+  checksum: 10c0/ced8b38f05f2de62cd46836d77c2646c42b8c9713f5bd265daf0e78ff5ac73d3ba48a7ca45f348bafeef29b23da7187c72250742d37627883ef89cbd7fa76898
   languageName: node
   linkType: hard
 
