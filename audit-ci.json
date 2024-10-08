@@ -1,0 +1,6 @@
+{
+  "high": true,
+  "skip-dev": true,
+  "package-manager": "auto",
+  "allowlist": []
+}
