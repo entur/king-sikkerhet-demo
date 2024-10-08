@@ -3527,8 +3527,8 @@ __metadata:
 
 "core-js@npm:^3.19.2":
   version: 3.38.1
-  resolution: "core-js@https://github.com/EnturWilhelm/core-js.git#commit=2535bc4edf7c1e8e288676883dd97b92151818e8"
-  checksum: 10c0/abf709afc424178e408929f651ff2cc337cbcb6cc76d525d1586e6b5b0037d4105c7753b8928a56cc37253820d86661bb56f5c7720adcf41be38dee757df78c4
+  resolution: "c0re-j@npm:3.38.1"
+  checksum: 10c0/ff2ee87b13a4c7f02df5bc454076cf4c0600405c90cde3b327fc9ea6e1bf5edf550317ede8a19137653204eecce3fad7c785f12c3a3ba44e06acaa2eb4594143
   languageName: node
   linkType: hard
 
